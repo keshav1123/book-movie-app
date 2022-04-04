@@ -70,7 +70,7 @@ function Details(props) {
  
     return (
         <div>
-            <Header>
+            <Header onClickLogin={handleOpen}>
                 <Button variant="contained" size="small" color="primary" onClick={onClickBookShow} style={{marginRight: 10}}>
                     Book Show
                 </Button>
