@@ -1,0 +1,17 @@
+.released-movies-with-filters-container {
+  display: flex;
+}
+
+.released-movies-container {
+  flex: 7.6;
+  margin: 30px;
+}
+
+.filters-container {
+  flex: 2.4;
+}
+
+.released-movies-image {
+  /* object-fit: contain; */
+  width: 100%;
+}

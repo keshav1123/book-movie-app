@@ -1,0 +1,33 @@
+.details-page-container {
+  display: flex;
+}
+
+.left-container {
+  flex: 2;
+  margin-left: 24px;
+}
+
+.left-container img {
+  width: 100%;
+}
+
+.right-container {
+  flex: 2;
+  margin-right: 24px;
+}
+
+.middle-container {
+  flex: 6;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.nav-container {
+  margin-left: 24px;
+  margin-top: 8px;
+  height: 24px;
+}
+
+.nav-container:hover {
+  cursor: pointer;
+}

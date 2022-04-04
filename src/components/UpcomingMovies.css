@@ -1,0 +1,44 @@
+.upcoming-movies-container {
+  background-color: #ff9999;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.upcoming-movies-title {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.upcoming-movies-card-container {
+  display: flex;
+  overflow-y: hidden;
+  /* height: 250px; */
+}
+
+.upcoming-movies-image-container {
+  /* max-height: 250px; */
+  position: relative;
+}
+
+.upcoming-movies-card-container img {
+  margin-left: 5px;
+  width: 250px;
+  height: 250px;
+}
+
+.upcoming-movies-image-title {
+  position: absolute;
+  top: 185px;
+  color: white;
+  background-color: rgba(17, 17, 17, 0.6);
+  margin-left: 5px;
+  height: 65px;
+  width: 98%;
+}
+
+.upcoming-movies-image-title p {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
